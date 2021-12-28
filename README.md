@@ -4,7 +4,9 @@ police garages with qb-target and qb-menu (Fork Dox-Garage)
 
 ## Requirements
 qb-core - https://github.com/qbcore-framework/qb-core
+
 qb-target - https://github.com/BerkieBb/qb-target
+
 qb-menu - https://github.com/qbcore-framework/qb-menu
 
 ## add to qb-target TargetBones
