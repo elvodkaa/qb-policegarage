@@ -68,7 +68,7 @@ AddEventHandler('qb-policegarage:garage', function(pd)
     local coords = { ['x'] = 431.32, ['y'] = -984.99, ['z'] = 25.7, ['h'] = 174.13 } -- 431.32, -984.99, 25.7
     QBCore.Functions.SpawnVehicle(vehicle, function(veh)
         SetVehicleNumberPlateText(veh, "ZULU"..tostring(math.random(1000, 9999)))
-        exports['qb-fuel']:SetFuel(veh, 100.0)
+        exports['LegacyFuel']:SetFuel(veh, 100.0)
         SetEntityHeading(veh, coords.h)
         TaskWarpPedIntoVehicle(GetPlayerPed(-1), veh, -1)
         TriggerEvent("vehiclekeys:client:SetOwner", QBCore.Functions.GetPlate(veh))
